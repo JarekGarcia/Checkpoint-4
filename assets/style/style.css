@@ -1,0 +1,33 @@
+/* BASIC STYLES HERE */
+.tp-bg {
+    background-color: rgba(0, 0, 0, 0.711);
+}
+
+input {
+    width: 10%;
+}
+
+body {
+    height: fit-content;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box {
+    width: 100%;
+}
+
+.author {
+    opacity: 0;
+    visibility: hidden;
+    transition: ease-in-out .75s;
+}
+
+.quote:hover+.author {
+    opacity: 1;
+    visibility: visible;
+}
+
+.quote {
+    cursor: help;
+}
